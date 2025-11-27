@@ -4,18 +4,18 @@ void main() {
   runApp(const MyApp());
 }
 
-// الكلاس الأساسي
+
 class MyApp extends StatelessWidget {
-  const MyApp({super.key}); // key موجود + constructor const
+  const MyApp({super.key}); 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomePage(), // استدعاء HomePage كـ const
+      home: HomePage(), 
     );
   }
 }
 
-// تعريف Movie
+
 class Movie {
   final String title;
   final String description;
@@ -32,9 +32,9 @@ class Movie {
   });
 }
 
-// الصفحة الرئيسية
+
 class HomePage extends StatelessWidget {
-  const HomePage({super.key}); // key موجود + constructor const
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
